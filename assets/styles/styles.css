@@ -19,6 +19,7 @@ ul {
 
 h1 {
     text-align: center; /* Centra todos los títulos h1 */
+    color: #000000; /* Cambia el color del texto a negro */
 }
 
 /* Header Styles */
@@ -77,17 +78,17 @@ h1 {
     height: 300px;
 }
 
-.banner-text {
+.banner-3 .banner-text {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 75%; /* Ajustado para mover el texto más a la derecha */
     transform: translate(-50%, -50%);
-    color: #ffffff;
-    text-align: center;
+    color: #000000; /* Cambia el color del texto a negro */
+    text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .banner-3 img {
-    width: 40%;
+    width: 45%; /* Ajustado para hacer la imagen más pequeña */
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción de la imagen */
     object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor, reduciendo el zoom */
     object-position: center bottom; /* Centra la imagen y la mueve un poco hacia abajo */
@@ -129,6 +130,16 @@ h1 {
 .contenido-card {
     padding: 20px;
     text-align: center; /* Centra el texto de las tarjetas */
+}
+
+.contenido-card a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ff6347; /* Cambia el color de fondo de los botones a tomate */
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 /* Video Styles */
