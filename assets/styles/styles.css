@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,13 +17,12 @@ ul {
 }
 
 h1 {
-    text-align: center; /* Centra todos los títulos h1 */
-    color: #000000; /* Cambia el color del texto a negro */
+    text-align: center;
+    color: #000000;
 }
 
-/* Header Styles */
 .header-area {
-    background-color: #45846C; /* Cambiado a #45846C */
+    background-color: #45846C;
     color: #ffffff;
     padding: 10px 0;
 }
@@ -36,9 +34,9 @@ h1 {
 }
 
 .site-logo img {
-    width: 180px; /* Ajustado para hacer el logo del header más grande */
+    width: 180px;
     height: auto;
-    margin-left: 40px; /* Añade un margen a la izquierda del logo */
+    margin-left: 40px;
 }
 
 .primary-menu li {
@@ -49,12 +47,11 @@ h1 {
 .primary-menu a {
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 20px; /* Añade un poco de padding a los botones */
-    background-color: #45846C; /* Cambiado a #45846C */
-    border-radius: 5px; /* Redondea las esquinas de los botones */
+    padding: 10px 20px;
+    background-color: #45846C;
+    border-radius: 5px;
 }
 
-/* Language Switch Styles */
 .language-switch {
     position: absolute;
     top: 10px;
@@ -65,13 +62,12 @@ h1 {
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
-    background-color: #45846C; /* Cambiado a #45846C */
+    background-color: #45846C;
     color: #ffffff;
     cursor: pointer;
     margin-left: 5px;
 }
 
-/* Banner Styles */
 .banner-3, .banner-4 {
     position: relative;
     width: 100%;
@@ -81,17 +77,17 @@ h1 {
 .banner-3 .banner-text {
     position: absolute;
     top: 50%;
-    left: 75%; /* Ajustado para mover el texto más a la derecha */
+    left: 75%;
     transform: translate(-50%, -50%);
-    color: #000000; /* Cambia el color del texto a negro */
-    text-align: left; /* Alinea el texto a la izquierda */
+    color: #000000;
+    text-align: left;
 }
 
 .banner-3 img {
-    width: 45%; /* Ajustado para hacer la imagen más pequeña */
-    height: auto; /* Ajusta la altura automáticamente para mantener la proporción de la imagen */
-    object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor, reduciendo el zoom */
-    object-position: center bottom; /* Centra la imagen y la mueve un poco hacia abajo */
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+    object-position: center bottom;
 }
 
 .banner-4 img {
@@ -99,64 +95,61 @@ h1 {
     height: 100%;
 }
 
-/* Card Styles */
 .container-card {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
-    background-color: #ffffff; /* Cambiado a #ffffff */
+    background-color: #ffffff;
 }
 
 .container-card h1 {
-    width: 100%; /* Asegura que el título "Team Collaborators" esté centrado */
+    width: 100%;
 }
 
 .card {
     flex-basis: calc(100% / 3 - 20px);
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #45846C; /* Cambiado a #45846C */
+    background-color: #45846C;
 }
 
 .card img {
-    width: 180px; /* Ajustado para hacer las fotos del equipo más grandes */
-    height: 180px; /* Ajustado para hacer las fotos del equipo más grandes */
+    width: 180px;
+    height: 180px;
     object-fit: cover;
-    display: block; /* Asegura que la imagen esté centrada */
-    margin: 0 auto; /* Asegura que la imagen esté centrada */
+    display: block;
+    margin: 0 auto;
 }
 
 .contenido-card {
     padding: 20px;
-    text-align: center; /* Centra el texto de las tarjetas */
+    text-align: center;
 }
 
 .contenido-card a {
     display: inline-block;
     color: #ffffff;
-    background-color: #ff6347; /* Cambia el color de fondo de los botones a tomate */
+    background-color: #ff6347;
     padding: 10px 20px;
     margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
 }
 
-/* Video Styles */
 iframe {
     display: block;
     margin: 0 auto;
 }
 
-/* Footer Styles */
 .pie-pagina {
-    background-color: #45846C; /* Cambiado a #45846C */
+    background-color: #45846C;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
 
 .pie-pagina img {
-    width: 180px; /* Ajustado para hacer el logo del footer del mismo tamaño que el del header */
+    width: 180px;
     height: auto;
 }
