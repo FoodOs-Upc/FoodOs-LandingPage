@@ -17,9 +17,13 @@ ul {
     padding: 0;
 }
 
+h1 {
+    text-align: center; /* Centra todos los títulos h1 */
+}
+
 /* Header Styles */
 .header-area {
-    background-color: #333;
+    background-color: #45846C; /* Cambiado a #45846C */
     color: #ffffff;
     padding: 10px 0;
 }
@@ -31,8 +35,9 @@ ul {
 }
 
 .site-logo img {
-    width: 100px; /* Ajustado para hacer el logo más grande */
+    width: 180px; /* Ajustado para hacer el logo del header más grande */
     height: auto;
+    margin-left: 40px; /* Añade un margen a la izquierda del logo */
 }
 
 .primary-menu li {
@@ -43,6 +48,26 @@ ul {
 .primary-menu a {
     color: #ffffff;
     text-decoration: none;
+    padding: 10px 20px; /* Añade un poco de padding a los botones */
+    background-color: #45846C; /* Cambiado a #45846C */
+    border-radius: 5px; /* Redondea las esquinas de los botones */
+}
+
+/* Language Switch Styles */
+.language-switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#lang-switch-en, #lang-switch-es {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #45846C; /* Cambiado a #45846C */
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
 /* Banner Styles */
@@ -61,7 +86,14 @@ ul {
     text-align: center;
 }
 
-.banner-3 img, .banner-4 img {
+.banner-3 img {
+    width: 40%;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción de la imagen */
+    object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor, reduciendo el zoom */
+    object-position: center bottom; /* Centra la imagen y la mueve un poco hacia abajo */
+}
+
+.banner-4 img {
     width: 100%;
     height: 100%;
 }
@@ -72,28 +104,48 @@ ul {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
+    background-color: #ffffff; /* Cambiado a #ffffff */
+}
+
+.container-card h1 {
+    width: 100%; /* Asegura que el título "Team Collaborators" esté centrado */
 }
 
 .card {
     flex-basis: calc(100% / 3 - 20px);
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #45846C; /* Cambiado a #45846C */
 }
 
 .card img {
-    width: 100px; /* Ajustado para hacer las fotos del equipo más pequeñas */
-    height: 100px; /* Ajustado para hacer las fotos del equipo más pequeñas */
+    width: 180px; /* Ajustado para hacer las fotos del equipo más grandes */
+    height: 180px; /* Ajustado para hacer las fotos del equipo más grandes */
     object-fit: cover;
+    display: block; /* Asegura que la imagen esté centrada */
+    margin: 0 auto; /* Asegura que la imagen esté centrada */
 }
 
 .contenido-card {
     padding: 20px;
+    text-align: center; /* Centra el texto de las tarjetas */
+}
+
+/* Video Styles */
+iframe {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Footer Styles */
 .pie-pagina {
-    background-color: #333;
+    background-color: #45846C; /* Cambiado a #45846C */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
+}
+
+.pie-pagina img {
+    width: 180px; /* Ajustado para hacer el logo del footer del mismo tamaño que el del header */
+    height: auto;
 }
