@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.header-area {
+    background-color: #45846C;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo img {
+    width: 180px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.primary-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.primary-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #45846C;
+    border-radius: 5px;
+}
+
+.language-switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#lang-switch-en, #lang-switch-es {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #45846C;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.banner-3, .banner-4 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.banner-3 .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    text-align: left;
+}
+
+.banner-3 img {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+.banner-4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.container-card h1 {
+    width: 100%;
+}
+
+.card {
+    flex-basis: calc(100% / 3 - 20px);
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #45846C;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.contenido-card {
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido-card a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ff6347;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.pie-pagina {
+    background-color: #45846C;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pie-pagina img {
+    width: 180px;
+    height: auto;
+}
