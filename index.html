@@ -5,164 +5,102 @@
     <title>Urban Solutions</title>
     <link rel="icon" type="image/x-icon" href="assets/img/Logo.png">
     <link href="assets/styles/styles.css" rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header class="header-area">
-    <div class="header-container">
-        <div class="site-logo">
-            <a class="Logo" href="#"><img  src="assets/img/Logo.png" alt="Logo"></a>
+<header>
+    <div class="navbar">
+        <img src="assets/img//Logo.png" alt="Logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+        <div>
+            <button type="button" id="button-lenguage-english" onclick="changePageEnglish()">En</button>
+            <button type="button" id="button-lenguage-spanish" onclick="changePageSpanish()">Es</button>
         </div>
-        <div class="mobile-nav">
-            <i class="fas fa-bars"></i>
-        </div>
-        <div class="site-nav-menu">
-            <ul class="primary-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#membership">Membership</a></li>
-                <li><a href="#aboutus">About Us</a></li>
-                <li><a href="#contactus">Contact Us</a></li>
-
-                <li><a href="https://app-os-hosting.web.app/home">Let's Go!</a></li>
-                <button id="lang-switch-es">EN</button>
-                <button id="lang-switch-en">ES</button>
-            </ul>
-        </div>
+        
     </div>
+
 </header>
 
-<div class="banner-3" id="home">
-    <div class="banner-text">
-        <h1>FoodOS Offers <br> "VerSoft"</h1>
-        <p>This proposal aims to help restaurants have a better<br>management of their inventory</p>
+<section id="home">
+    <div class="hero">
+        <p>Improve your<br> inventory and <br>its efficiency.<br>Right now!<br>
+            <button type="button" class="btn-star">Star Now</button></p>
     </div>
-    <img class="img" src="assets/img/Banner1.jpg">
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="section" id="service">
+</section>
 
-</div>
+<section id="service">
 
-<div class="banner-3" id="membership">
-    <div class="title">
-        <h1>Plans of VerSoft</h1>
-    </div>
-    <div class="container-card">
-        <div class="card">
-            <figure>
-                <img src="assets/img/Banner2.jpg" alt="foto1">
-            </figure>
-            <div class="contenido-card">
-                <h3>Basic</h3>
-                <strong>1000 Inventory Spaces<br>Save previous used products<br></strong>
-                <a href="">Free</a>
-            </div>
+    <h1 class="section-title">What we offer?</h1>
+
+    <div class="row">
+
+        <div class="column1">
+          <img src="assets/img/tl (2).webp" class="service-img">
+          <P>Specialized inventory in restaurants</P>
         </div>
 
-        <div class="card">
-            <figure>
-                <img src="assets/img/Banner3.jpg" alt="foto2">
-            </figure>
-            <div class="contenido-card">
-                <h3>Premium</h3>
-                <strong>More than 2000 Inventory Spaces<br>Automatically order new products<br><span style="color: #000000">Select the best quality products</span>.<br></strong>
-                <a href="">$29.90</a>
-            </div>
+        <div class="column2">
+          <img src="assets/img/tl (7).webp" class="service-img">
+          <p>Organize your products easily</p>
+          
         </div>
-    </div>
-</div>
 
-<div>
+        <div class="column3">
+          <img src="assets/img/tl (4).webp" class="service-img">
+          <P>Work more efficiently with your restaurant team.</P>
+        </div>
 
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+      </div>
+      <div class="row">
 
-<div>
-    <h1>Video About the Product</h1><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=_amhohErz48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+        <div class="column1">
+          <img src="assets/img/tl (1).webp" class="service-img">
+          <p>Share files with team.</p>
+        </div>
+        <div class="column2">
+          <img src="assets/img/tl (3).webp" class="service-img">
+          <p>Manage your task of team.</p>
+        </div>
+        <div class="column3">
+          <img src="assets/img/tl.webp" class="service-img">
+          <p>Have the freshest products on hand.</p>
+        </div>
 
-<div class="container-card" id="aboutus">
-    <h1 style="display: flex;
-        align-items: center;
-        justify-content: center;">Team Collaborators</h1>
-    <div class="card">
-        <figure>
-            <img src="assets/img/Tomas.jpg" alt="foto1">
-        </figure>
-        <div class="contenido-card">
-            <h3>Tomas Ortiz Fajardo</h3>
-            <p>Software Engineer</p>
-        </div>
-    </div>
-    <div class="card">
-        <figure>
-            <img src="assets/img/Alessandro.jpeg" alt="foto2">
-        </figure>
-        <div class="contenido-card">
-            <h3>Alessandro Vega Paico</h3>
-            <p>Software Engineer</p>
-        </div>
-    </div>
-    <div class="card">
-        <figure>
-            <img src="assets/img/Piero.jpeg" alt="foto3">
-        </figure>
-        <div class="contenido-card">
-            <h3>Piero Alonso Martinez Villanueva</h3>
-            <p>Software Engineer</p>
-        </div>
-    </div>
-    <div class="card">
-        <figure>
-            <img src="assets/img/Leonardo.png" alt="foto4">
-        </figure>
-        <div class="contenido-card">
-            <h3>Dueñas Canales Leonardo Manuel</h3>
-            <p>Software Engineer</p>
-        </div>
-    </div>
-    <div class="card">
-        <figure>
-            <img src="assets/img/Brayan.png" alt="foto5">
-        </figure>
-        <div class="contenido-card">
-            <h3>Morales Quispe Brayan Smith</h3>
-            <p>Software Engineer</p>
-        </div>
-    </div>
-</div>
+      </div>
+</section>
 
-<div class="banner-3" id="contactus">
-    <div class="banner-text">
-        <h1>Contact Us</h1>
-        <p>clients@FoodOS.com<br>977826004</p>
+<section id="membership">
+    <h1 class="section-title">Memberships</h1>
+    <div class="plan-cards">
+      <div class="plan-card">
+        <h2>Free Plan</h2>
+        <p>free plan where you can get a glimpse of the program's features. In addition to having access to premium and VIP functions</p>
+        <button>Free</button>
+      </div>
+      <div class="plan-card">
+        <h2>Premium Plan</h2>
+        <p>Access to inventory with the features of registering products plus the possibility of creating work groups</p>
+        <button>20 PEN/month</button>
+      </div>
+      <div class="plan-card">
+        <h2>Vip Plan</h2>
+        <p>VIP plan has all the previous plans without limitations, in addition to being able to upload files, create tasks and organize into work groups.</p>
+        <button>35 PEN/month</button>
+      </div>
     </div>
-</div>
+  </section>
+
 
 <footer class="pie-pagina">
     <div class="grupo-1">
