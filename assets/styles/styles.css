@@ -166,6 +166,15 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+  #video-about-product{
+    padding: 10px;
+    text-align: center;
+  }
+
+  #video-about-team{
+    padding: 10px;
+    text-align: center;
+  }
 
   /*Footer*/
 
